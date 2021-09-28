@@ -1,0 +1,12 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+int main() {
+    float length,breadth;
+    printf("Please enter the length of the rectangle \n");
+    scanf("%f",&length);
+     printf("Please enter the breadth of the rectangle \n");
+    scanf("%f",&breadth);
+    area =length*breadth;
+    printf("The area of rectangle with length %f & breadth %f is %f",length,breadth,area);
+    return 0;
+}
