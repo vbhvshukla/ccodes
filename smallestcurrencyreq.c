@@ -1,0 +1,31 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+C#, VB, Perl, Swift, Prolog, Javascript, Pascal, HTML, CSS, JS
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    int amount,nohun,nofifty,noten,nofive,notwo,noone,total;
+    printf("Enter the amount: ");
+    scanf("%d",&amount);
+    nohun=amount/100;
+    amount = amount%100;
+    nofifty = amount/50;
+    amount = amount%50;
+    noten=amount/10;
+    amount = amount%10;
+    nofive=amount/5;
+    amount = amount%5;
+    notwo = amount/2;
+    amount = amount%2;
+    noone=amount/1;
+    amount = amount%1;
+    total = nohun + nofifty + noten+nofive + notwo + noone;
+    printf("Smallest number of notes = %d\n",total);
+    return 0;
+}
